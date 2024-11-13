@@ -1,6 +1,7 @@
 # React + Vite
+Progress bar is an interface element that shows the user the loading of a process.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For example, moving files from folder to folder, the process of downloading something, installing a program.
 
 Currently, two official plugins are available:
 
