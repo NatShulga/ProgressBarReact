@@ -3,8 +3,6 @@ Progress bar is an interface element that shows the user the loading of a proces
 
 For example, moving files from folder to folder, the process of downloading something, installing a program.
 
-http://localhost:5173/
-
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
