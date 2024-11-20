@@ -1,12 +1,18 @@
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { ProgressBar } from "./ProgressBar.jsx";
+
 
 function App() {
   return (
-    <div className= "App">
-      <ProgressBar />
-    </div>
-    
+    <HashRouter>
+      <div className= "App">
+        <ProgressBar />
+        <Routes>
+          <Route path="/" element={<ProgressBar />} />
+        </Routes>
+      </div>
+    </HashRouter>
   )
 }
 
-export default App
+export default App;
